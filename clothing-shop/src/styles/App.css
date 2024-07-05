@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  button {
+    padding: 5px 10px;
+    margin-top: 10px;
+  }
