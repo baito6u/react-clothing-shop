@@ -1,8 +1,13 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Home } from "./components/home/Home";
+
 function App() {
   return (
-    <>
-      <div>Hello from clothing-shop</div>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route exact path="/" Component={Home}/>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
