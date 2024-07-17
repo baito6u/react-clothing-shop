@@ -1,7 +1,7 @@
 import React from 'react'
 import { Navbar } from '../navbar/Navbar'
 import { Product } from '../Product'
-import "./Home.css"
+import "./Home.module.css"
 
 export const Home = () => {
   return (
