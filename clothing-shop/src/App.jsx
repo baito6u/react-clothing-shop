@@ -4,12 +4,10 @@ import { AddProducts } from "./components/addPrducts/AddProducts";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" Component={Home}/>
-        <Route path="/addproducts" Component={AddProducts}/>
-      </Routes>
-    </BrowserRouter>
+    <Routes>
+      <Route path="/" Component={Home} />
+      <Route path="/addproducts" Component={AddProducts} />
+    </Routes>
   );
 }
 
