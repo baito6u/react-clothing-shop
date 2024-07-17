@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { fs, storage } from "../config/firebase";
+import { db, storage } from "../../config/firebase";
 
 export const AddProducts = () => {
   const [title, setTitle] = useState("");
@@ -45,7 +45,7 @@ export const AddProducts = () => {
           .child(image.name)
           .getDownloadURL()
           .then((url) => {
-            fs.collection("Products")
+            db.collection("Products")
               .add({
                 title,
                 description,
